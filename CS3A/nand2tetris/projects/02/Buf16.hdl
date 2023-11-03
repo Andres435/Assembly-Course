@@ -1,0 +1,49 @@
+// This file is for use with www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// Create this file in your nand2tetris projects/02 folder with
+// the name Buf.hdl// i.e. File name: projects/02/Buf16.hdl
+
+/**
+ * Buf16:
+ * for i=0..15: out[i] = in[i]
+ */
+
+ CHIP Buf16 {
+    IN in[16];
+    OUT out[16];
+    
+    PARTS:
+    Not(in=in[0],    out=c1);
+    Not(in=c1,       out=out[0]);
+    Not(in=in[1],    out=c2);
+    Not(in=c2,       out=out[1]);
+    Not(in=in[2],    out=c3);
+    Not(in=c3,       out=out[2]);
+    Not(in=in[3],    out=c4);
+    Not(in=c4,       out=out[3]);
+    Not(in=in[4],    out=c5);
+    Not(in=c5,       out=out[4]);
+    Not(in=in[5],    out=c6);
+    Not(in=c6,       out=out[5]);
+    Not(in=in[6],    out=c7);
+    Not(in=c7,       out=out[6]);
+    Not(in=in[7],    out=c8);
+    Not(in=c8,       out=out[7]);
+    Not(in=in[8],    out=c9);
+    Not(in=c9,       out=out[8]);
+    Not(in=in[9],    out=c10);
+    Not(in=c10,      out=out[9]);
+    Not(in=in[10],   out=c11);
+    Not(in=c11,      out=out[10]);
+    Not(in=in[11],   out=c12);
+    Not(in=c12,      out=out[11]);
+    Not(in=in[12],   out=c13);
+    Not(in=c13,      out=out[12]);
+    Not(in=in[13],   out=c14);
+    Not(in=c14,      out=out[13]);
+    Not(in=in[14],   out=c15);
+    Not(in=c15,      out=out[14]);
+    Not(in=in[15],   out=c16);
+    Not(in=c16,      out=out[15]);
+ }

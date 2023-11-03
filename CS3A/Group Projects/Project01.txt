@@ -1,0 +1,17 @@
+Project01 Groupe 17 
+
+2. 
+:
+
+4. 
+:
+
+6. 
+:
+
+8. What does BASIC stands for?
+: BASIC (Beginners' All-purpose Symbolic Instruction Code) is a family of general-purpose, high-level programming languages whose design philosophy emphasizes ease of use.
+
+10. What does an assembler translate source code (mnemonics) into?
+: An Assembler translate mnemonics into binary patterns(Machine code). 
+
